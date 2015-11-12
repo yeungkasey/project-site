@@ -1,0 +1,32 @@
+#pricing {
+	padding: 130px 0px;
+	position: relative;
+	min-height: 140px;
+
+	.background {
+		/*background-image: url("148H.jpg");*/
+		background: #eaeaea;
+		background-size: cover;
+		background-position: 100% 58%;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+		-webkit-filter: contrast(0.6) grayscale(0.1);
+		top: 0;
+		left: 0;
+		opacity: 0.5;
+	
+		.pricebox {
+			display: block;
+			float: left;
+			width: 23.5%;
+			padding: 5px;
+			margin: 5 5px;
+			box-sizing: border-box;
+			color: #303030;
+			text-shadow: 0.1px 0.1px 0px rgba(0,0,0,0.6);
+			margin: 0 40px; 
+		}
+	}
+}
