@@ -7,5 +7,4 @@ gulp.task('sass', function() {
 		.pipe(sass())
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest("css"));
-
 });
