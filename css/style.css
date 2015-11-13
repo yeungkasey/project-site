@@ -189,7 +189,7 @@ body textarea, * textarea {
   /*text-shadow: 1px 1px 0px rgba(0,0,0,0.6);*/ }
 
 #faq .background {
-  background-image: url("150H.jpg");
+  background-image: url("../img/150H.jpg");
   background-size: cover;
   background-position: fixed;
   background-position: absolute;
